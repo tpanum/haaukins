@@ -12,7 +12,7 @@ import (
 
 	"io"
 
-	"github.com/aau-network-security/haaukins/virtual/docker"
+	"github.com/tpanum/haaukins/virtual/docker"
 	"github.com/rs/zerolog/log"
 )
 

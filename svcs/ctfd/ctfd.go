@@ -24,10 +24,10 @@ import (
 
 	"io"
 
-	"github.com/aau-network-security/haaukins/store"
-	"github.com/aau-network-security/haaukins/svcs"
-	"github.com/aau-network-security/haaukins/virtual"
-	"github.com/aau-network-security/haaukins/virtual/docker"
+	"github.com/tpanum/haaukins/store"
+	"github.com/tpanum/haaukins/svcs"
+	"github.com/tpanum/haaukins/virtual"
+	"github.com/tpanum/haaukins/virtual/docker"
 	"github.com/google/uuid"
 	"github.com/rs/zerolog/log"
 )

@@ -10,12 +10,12 @@ import (
 	"io"
 	"testing"
 
-	"github.com/aau-network-security/haaukins/exercise"
-	"github.com/aau-network-security/haaukins/lab"
-	"github.com/aau-network-security/haaukins/store"
-	"github.com/aau-network-security/haaukins/svcs/ctfd"
-	"github.com/aau-network-security/haaukins/svcs/guacamole"
-	"github.com/aau-network-security/haaukins/virtual/docker"
+	"github.com/tpanum/haaukins/exercise"
+	"github.com/tpanum/haaukins/lab"
+	"github.com/tpanum/haaukins/store"
+	"github.com/tpanum/haaukins/svcs/ctfd"
+	"github.com/tpanum/haaukins/svcs/guacamole"
+	"github.com/tpanum/haaukins/virtual/docker"
 )
 
 const (

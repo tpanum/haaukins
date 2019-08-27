@@ -7,7 +7,7 @@ package cli
 import (
 	"context"
 	"fmt"
-	pb "github.com/aau-network-security/haaukins/daemon/proto"
+	pb "github.com/tpanum/haaukins/daemon/proto"
 	"github.com/logrusorgru/aurora"
 	"github.com/spf13/cobra"
 	"time"

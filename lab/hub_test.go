@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aau-network-security/haaukins/exercise"
-	"github.com/aau-network-security/haaukins/virtual"
+	"github.com/tpanum/haaukins/exercise"
+	"github.com/tpanum/haaukins/virtual"
 	"github.com/google/uuid"
 )
 

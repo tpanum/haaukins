@@ -21,8 +21,8 @@ import (
 	"math"
 	"regexp"
 
-	"github.com/aau-network-security/haaukins/store"
-	"github.com/aau-network-security/haaukins/virtual"
+	"github.com/tpanum/haaukins/store"
+	"github.com/tpanum/haaukins/virtual"
 	"github.com/google/uuid"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"

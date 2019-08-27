@@ -12,11 +12,11 @@ import (
 	"io"
 	"sync"
 
-	"github.com/aau-network-security/haaukins/exercise"
-	"github.com/aau-network-security/haaukins/store"
-	"github.com/aau-network-security/haaukins/virtual"
-	"github.com/aau-network-security/haaukins/virtual/docker"
-	"github.com/aau-network-security/haaukins/virtual/vbox"
+	"github.com/tpanum/haaukins/exercise"
+	"github.com/tpanum/haaukins/store"
+	"github.com/tpanum/haaukins/virtual"
+	"github.com/tpanum/haaukins/virtual/docker"
+	"github.com/tpanum/haaukins/virtual/vbox"
 	"github.com/docker/docker/pkg/namesgenerator"
 	"github.com/rs/zerolog/log"
 )

@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	tst "github.com/aau-network-security/haaukins/testing"
-	"github.com/aau-network-security/haaukins/virtual/vbox"
+	tst "github.com/tpanum/haaukins/testing"
+	"github.com/tpanum/haaukins/virtual/vbox"
 )
 
 const (

@@ -6,8 +6,8 @@ package guacamole
 
 import (
 	"bytes"
-	"github.com/aau-network-security/haaukins/logging"
-	"github.com/aau-network-security/haaukins/store"
+	"github.com/tpanum/haaukins/logging"
+	"github.com/tpanum/haaukins/store"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"io"

@@ -14,12 +14,12 @@ import (
 	"io"
 	"sync"
 
-	"github.com/aau-network-security/haaukins/lab"
-	"github.com/aau-network-security/haaukins/store"
-	"github.com/aau-network-security/haaukins/svcs/ctfd"
-	"github.com/aau-network-security/haaukins/svcs/guacamole"
-	"github.com/aau-network-security/haaukins/virtual/docker"
-	"github.com/aau-network-security/haaukins/virtual/vbox"
+	"github.com/tpanum/haaukins/lab"
+	"github.com/tpanum/haaukins/store"
+	"github.com/tpanum/haaukins/svcs/ctfd"
+	"github.com/tpanum/haaukins/svcs/guacamole"
+	"github.com/tpanum/haaukins/virtual/docker"
+	"github.com/tpanum/haaukins/virtual/vbox"
 	"github.com/rs/zerolog/log"
 )
 

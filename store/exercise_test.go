@@ -8,7 +8,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/aau-network-security/haaukins/store"
+	"github.com/tpanum/haaukins/store"
 )
 
 type exer struct {

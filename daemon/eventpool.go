@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/aau-network-security/haaukins/event"
-	"github.com/aau-network-security/haaukins/store"
+	"github.com/tpanum/haaukins/event"
+	"github.com/tpanum/haaukins/store"
 )
 
 type eventPool struct {

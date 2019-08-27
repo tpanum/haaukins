@@ -11,7 +11,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/aau-network-security/haaukins/virtual/docker"
+	"github.com/tpanum/haaukins/virtual/docker"
 	"github.com/google/uuid"
 	yaml "gopkg.in/yaml.v2"
 )

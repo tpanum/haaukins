@@ -6,7 +6,7 @@ package store_test
 
 import (
 	"fmt"
-	"github.com/aau-network-security/haaukins/store"
+	"github.com/tpanum/haaukins/store"
 	"github.com/google/uuid"
 	"io/ioutil"
 	"os"

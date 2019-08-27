@@ -19,7 +19,7 @@ import (
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/aau-network-security/haaukins/store"
+	"github.com/tpanum/haaukins/store"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"
 )

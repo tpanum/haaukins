@@ -11,7 +11,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/aau-network-security/haaukins/daemon"
+	"github.com/tpanum/haaukins/daemon"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 )

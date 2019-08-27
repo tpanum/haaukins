@@ -7,7 +7,7 @@ package svcs
 import (
 	"net/http"
 
-	"github.com/aau-network-security/haaukins/store"
+	"github.com/tpanum/haaukins/store"
 )
 
 type ProxyConnector func(store.EventFile) http.Handler

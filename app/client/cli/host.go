@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	pb "github.com/aau-network-security/haaukins/daemon/proto"
+	pb "github.com/tpanum/haaukins/daemon/proto"
 	color "github.com/logrusorgru/aurora"
 	"github.com/spf13/cobra"
 )

@@ -8,10 +8,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/aau-network-security/haaukins/exercise"
-	"github.com/aau-network-security/haaukins/store"
-	"github.com/aau-network-security/haaukins/virtual/docker"
-	"github.com/aau-network-security/haaukins/virtual/vbox"
+	"github.com/tpanum/haaukins/exercise"
+	"github.com/tpanum/haaukins/store"
+	"github.com/tpanum/haaukins/virtual/docker"
+	"github.com/tpanum/haaukins/virtual/vbox"
 )
 
 type testDockerHost struct {

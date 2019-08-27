@@ -11,10 +11,10 @@ import (
 
 	"sync"
 
-	"github.com/aau-network-security/haaukins/store"
-	"github.com/aau-network-security/haaukins/virtual"
-	"github.com/aau-network-security/haaukins/virtual/docker"
-	"github.com/aau-network-security/haaukins/virtual/vbox"
+	"github.com/tpanum/haaukins/store"
+	"github.com/tpanum/haaukins/virtual"
+	"github.com/tpanum/haaukins/virtual/docker"
+	"github.com/tpanum/haaukins/virtual/vbox"
 	"github.com/rs/zerolog/log"
 )
 

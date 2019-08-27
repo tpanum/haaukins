@@ -19,10 +19,10 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/aau-network-security/haaukins/event"
-	"github.com/aau-network-security/haaukins/store"
-	"github.com/aau-network-security/haaukins/virtual/docker"
-	"github.com/aau-network-security/haaukins/virtual/vbox"
+	"github.com/tpanum/haaukins/event"
+	"github.com/tpanum/haaukins/store"
+	"github.com/tpanum/haaukins/virtual/docker"
+	"github.com/tpanum/haaukins/virtual/vbox"
 	"github.com/pkg/errors"
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/mem"
@@ -30,14 +30,14 @@ import (
 	"google.golang.org/grpc/metadata"
 	"gopkg.in/yaml.v2"
 
-	pb "github.com/aau-network-security/haaukins/daemon/proto"
+	pb "github.com/tpanum/haaukins/daemon/proto"
 	dockerclient "github.com/fsouza/go-dockerclient"
 
 	"sync"
 
 	"os/user"
 
-	"github.com/aau-network-security/haaukins/logging"
+	"github.com/tpanum/haaukins/logging"
 	"github.com/mholt/certmagic"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"

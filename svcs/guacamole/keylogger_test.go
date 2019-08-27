@@ -6,8 +6,8 @@ package guacamole_test
 
 import (
 	"bufio"
-	"github.com/aau-network-security/haaukins/store"
-	"github.com/aau-network-security/haaukins/svcs/guacamole"
+	"github.com/tpanum/haaukins/store"
+	"github.com/tpanum/haaukins/svcs/guacamole"
 	"io/ioutil"
 	"os"
 	"path/filepath"

@@ -9,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aau-network-security/haaukins/store"
+	"github.com/tpanum/haaukins/store"
 )
 
 func TestUser(t *testing.T) {

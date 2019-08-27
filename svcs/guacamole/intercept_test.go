@@ -9,8 +9,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/aau-network-security/haaukins/store"
-	"github.com/aau-network-security/haaukins/svcs/guacamole"
+	"github.com/tpanum/haaukins/store"
+	"github.com/tpanum/haaukins/svcs/guacamole"
 )
 
 func TestGuacLoginTokenInterceptor(t *testing.T) {

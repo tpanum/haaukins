@@ -10,8 +10,8 @@ import (
 
 	"time"
 
-	"github.com/aau-network-security/haaukins/exercise"
-	"github.com/aau-network-security/haaukins/store"
+	"github.com/tpanum/haaukins/exercise"
+	"github.com/tpanum/haaukins/store"
 	"github.com/fsouza/go-dockerclient"
 	"github.com/rs/zerolog"
 )

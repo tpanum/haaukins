@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/aau-network-security/haaukins/store"
-	"github.com/aau-network-security/haaukins/svcs/ctfd"
+	"github.com/tpanum/haaukins/store"
+	"github.com/tpanum/haaukins/svcs/ctfd"
 	"github.com/google/uuid"
 	"github.com/rs/zerolog"
 )

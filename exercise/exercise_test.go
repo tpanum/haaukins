@@ -8,8 +8,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/aau-network-security/haaukins/store"
-	"github.com/aau-network-security/haaukins/virtual/docker"
+	"github.com/tpanum/haaukins/store"
+	"github.com/tpanum/haaukins/virtual/docker"
 )
 
 func dconfFromRecords(records []store.RecordConfig) store.DockerConfig {

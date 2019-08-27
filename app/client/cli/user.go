@@ -11,7 +11,7 @@ import (
 	"log"
 	"time"
 
-	pb "github.com/aau-network-security/haaukins/daemon/proto"
+	pb "github.com/tpanum/haaukins/daemon/proto"
 	"github.com/spf13/cobra"
 )
 
