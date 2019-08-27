@@ -12,9 +12,8 @@ cache:
   directories:
   - "$HOME/.cache/go-build"
 
-env:
-  global:
-    GOCACHE=off
-
 install:
   - go get -t ./...
+
+script:
+  - go test ./...
