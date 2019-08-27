@@ -1,4 +1,6 @@
 # Haaukins
+*This is a version of Haaukins that focus on stability*
+
 The virtualisation platform for training of digital security.
 `Haaukins` consists of two major components:
 - [client](app/client/readme.md)

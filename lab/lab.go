@@ -225,6 +225,11 @@ func (l *lab) Close() error {
 		go closer(l.environment)
 	}
 
+	for _, lab := range l.frontends {
+		wg.Add(1)
+		go closer(lab.vm)
+	}
+
 	wg.Wait()
 
 	return nil
